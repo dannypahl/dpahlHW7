@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page 1</title>
+    <link rel="stylesheet" href="./css/stylessheet.css"
+</head>
+<body>
+    <h1>Survey Page 1</h1>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+                <div>
+                <label for="fname"> First name:
+                <input id="fname" type="text" autofocus tabindex="1">
+                </label>
+                </div>
+
+                <div>
+                <label for="lname"> Last name:
+                <input id="lname" type="text"autofocus tabindex="2">
+                </label>
+                </div>
+                <div>
+                <label for="email"> Email address:
+                <input id="email" type="text">
+                </label>
+            
+                </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Personal Info</legend>
+           
+                <label for="age"> Age:
+                    <input id="age" type="number"  min="0" max="120" >
+                </label>
+                <label for="genders">Sex:</label>
+                <select name="Sex" id="genders">
+                    <option value=" "> </option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <label for="student">Are you a student?:</label>
+                <select name="student" id="student">
+                <option value=" "> </option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                </select>
+        </fieldset>
+        </form>
+    
+    <p>
+    <button onclick="window.location.href='./survey-2.html';">
+        Next page
+      </button>
+    </p>
+    <p>page 1 of 2</p>
+</body>
+</html>

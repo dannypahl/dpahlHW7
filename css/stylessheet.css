@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+  }
+form {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  legend {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(234, 2, 2);
+  }
+h2 {font-size:100px;
+
+
+}
+
+label{font-size: 20px;
+
+}
+
+p {font-size:18px;
+
+}
+
+
+  .transportation {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .transportation label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  .transportation select {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  img {opacity:0.8;
+    float: right;
+
+  }
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }

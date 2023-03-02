@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page 2</title>
+    <link rel="stylesheet" href="./css/stylessheet.css"
+</head>
+<body>
+    <h1>Survey Page 2</h1>
+    <form>
+        <fieldset>
+            <legend>Transportation (Use checkboxes and choose types)</legend>
+            
+            <div>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="Bus">
+                <label for="vehicle2"> I walk</label><br>
+            </div> 
+            <img src="TransportationPic.png" alt="Transportation clipart" width="240" height="170" style="margin:auto; display: block;">
+            <div>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <div> 
+                    <label for="bikes">Choose a bike:</label>
+
+                    <select name="bicycle" id="bikes">
+                        <option value=" "> </option>
+                        <option value="Road bike">Road bike</option>
+                        <option value="Mountain bike">Mountain bike</option>
+                        <option value="Stationary">Stationary</option>
+                        <option value="Hybrid">Hybrid</option>
+                        <option value="Other bike">Other bike</option>
+                    </select>
+                </div>
+                
+
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <div> 
+                    <label for="cars">Choose a car:</label>
+
+                    <select name="autos" id="cars">
+                        <option value=" "> </option>
+                        <option value="SUV">SUV</option>
+                        <option value="Truck">Truck</option>
+                        <option value="Sports car">Sports car</option>
+                        <option value="Sedan">Sedan</option>
+                        <option value="Other car">Other car</option>
+                    </select>
+                </div>
+
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Scooter" >
+                <label for="vehicle3"> I have a scooter</label><br>
+                <div> 
+                    <label for="scooters">Choose a scooter:</label>
+
+                    <select name="scooter" id="scooters">
+                        <option value=" "> </option>
+                        <option value="Kick scooter">Kick scooter(ex. Razor)</option>
+                        <option value="Electronic scooter">Electronic scooter</option>
+                        <option value="Gas-powered scooter">Gas-powered scooter</option>
+                        <option value="Self-balancing scooter">Self-balancing scooter</option>
+                        <option value="Other scooter">Other scooter</option>
+                    </select>
+                </div>
+                
+                <input type="checkbox" id="vehicle4" name="vehicle4" value="Bus">
+                <label for="vehicle2"> I ride the bus</label><br>
+                <div> 
+                    <label for="buses">Choose a bus:</label>
+
+                    <select name="autos" id="buses">
+                        <option value=" "> </option>
+                        <option value="Public bus">Public bus</option>
+                        <option value="A school/university bus">A school/university bus</option>
+                        <option value="Other bus">Other bus</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+        </form>
+    <p>
+    <button onclick="window.location.href='./thankyou.html';">
+        Finish
+      </button>
+    </p>
+    <p>page 2 of 2</p>
+</body>
+</html>
