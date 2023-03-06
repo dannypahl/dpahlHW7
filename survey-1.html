@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 1</title>
-    <link rel="stylesheet" href="./css/stylessheet.css"
+    <link rel="stylesheet" href="./css/stylessheet.css">
 </head>
 <body>
     <h1>Survey Page 1</h1>
     <form>
         <fieldset>
             <legend>Contact Information</legend>
+            <img src="personalpic.png" alt="personal clipart" width="120" height="80" style="margin:auto; display: block;">
+
                 <div>
                 <label for="fname"> First name:
                 <input id="fname" type="text" autofocus tabindex="1">
@@ -43,13 +45,12 @@
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
-
-                <label for="student">Are you a student?:</label>
-                <select name="student" id="student">
-                <option value=" "> </option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-                </select>
+                <div>
+                <input type="radio" id="html" name="student?" value="HTML">
+<label for="yes student">I am a student</label><br>
+<input type="radio" id="css" name="student?" value="Nonstudent">
+<label for="nonstudent">I am NOT a student</label><br>
+</div>
         </fieldset>
         </form>
     
