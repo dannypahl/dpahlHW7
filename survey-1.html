@@ -16,18 +16,22 @@
 
                 <div>
                 <label for="fname"> First name:
-                <input id="fname" type="text" autofocus tabindex="1">
+                <input id="fname" type="text" autofocus tabindex="1" required>
                 </label>
                 </div>
 
                 <div>
                 <label for="lname"> Last name:
-                <input id="lname" type="text"autofocus tabindex="2">
+                <input id="lname" type="text"autofocus tabindex="2" required>
                 </label>
                 </div>
                 <div>
                 <label for="email"> Email address:
-                <input id="email" type="text">
+                <input id="email" type="text" required placeholder="example1@gmail.com">
+                <button2 class="help-icon">
+                    <img src="help.png" alt="Help Icon" width="20" height="20" wraptext>
+                    <span class="help-tooltip">You must enter a valid email to receive notifications</span>
+                  </button2>                                  
                 </label>
             
                 </div>
@@ -44,6 +48,7 @@
                     <option value=" "> </option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
+                    <option value="Intersex">Intersex</option>
                 </select>
                 <div>
                 <input type="radio" id="html" name="student?" value="HTML">

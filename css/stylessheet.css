@@ -47,6 +47,43 @@ p {font-size:18px;
     float: right;
 
   }
+  
+  .help-text {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .help-icon {
+    position: relative;
+    display: inline-block;
+  }
+  button2{ background-color: rgb(255, 255, 255);
+
+  }
+  .help-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:max-content
+  }
+  
+  .help-icon:hover .help-tooltip {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  
 button {
     background-color: #4CAF50;
     color: white;
