@@ -13,56 +13,55 @@
         <fieldset>
             <legend>Contact Information</legend>
             <img src="personalpic.png" alt="personal clipart" width="120" height="80" style="margin:auto; display: block;">
-
-                <div>
+            <div>
                 <label for="fname"> First name:
-                <input id="fname" type="text" autofocus tabindex="1" required>
+                    <input id="fname" type="text" autofocus tabindex="1" required>
                 </label>
-                </div>
-
-                <div>
+            </div>
+            <div>
                 <label for="lname"> Last name:
-                <input id="lname" type="text"autofocus tabindex="2" required>
+                    <input id="lname" type="text" tabindex="2" required>
                 </label>
-                </div>
-                <div>
+            </div>
+            <div>
                 <label for="email"> Email address:
-                <input id="email" type="text" required placeholder="example1@gmail.com">
-                <button2 class="help-icon">
-                    <img src="help.png" alt="Help Icon" width="20" height="20" wraptext>
-                    <span class="help-tooltip">You must enter a valid email to receive notifications</span>
-                  </button2>                                  
-                </label>
-            
-                </div>
-
+                    <input id="email" type="email" required placeholder="example1@gmail.com">
+                    <button class="e-mail">
+                        <img src="help.png" alt="Help Icon" width="20" height="20">
+                        <span class="help-tooltip">You must enter a valid email to receive notifications</span>
+                    </button>                                  
+                </label>            
+            </div>
         </fieldset>
+
         <fieldset>
             <legend>Personal Info</legend>
-           
-                <label for="age"> Age:
-                    <input id="age" type="number"  min="0" max="120" >
-                </label>
-                <label for="genders">Sex:</label>
-                <select name="Sex" id="genders">
-                    <option value=" "> </option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Intersex">Intersex</option>
-                </select>
-                <div>
-                <input type="radio" id="html" name="student?" value="HTML">
-<label for="yes student">I am a student</label><br>
-<input type="radio" id="css" name="student?" value="Nonstudent">
-<label for="nonstudent">I am NOT a student</label><br>
-</div>
+            <label for="age"> Age:
+                <input id="age" type="number"  min="0" max="120" >
+            </label>
+
+            <label for="gender">Sex:</label>
+            <select name="gender" id="gender">
+                <option value=" ">Please select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Intersex">Intersex</option>
+            </select>
+
+            <div>
+                <input type="radio" id="html" name="student" value="HTML">
+                <label for="html">I am a student</label><br>
+
+                <input type="radio" id="css" name="student" value="Nonstudent">
+                <label for="css">I am NOT a student</label><br>
+            </div>
         </fieldset>
-        </form>
-    
+    </form>
+
     <p>
-    <button onclick="window.location.href='./survey-2.html';">
-        Next page
-      </button>
+        <button onclick="window.location.href='./survey-2.html';">
+            Next page
+        </button>
     </p>
     <p>page 1 of 2</p>
 </body>
