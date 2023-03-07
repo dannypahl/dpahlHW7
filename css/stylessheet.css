@@ -58,9 +58,7 @@ p {font-size:18px;
     position: relative;
     display: inline-block;
   }
-  button2{ background-color: rgb(255, 255, 255);
-
-  }
+  
   .help-tooltip {
     visibility: hidden;
     opacity: 0;
