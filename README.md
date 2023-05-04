@@ -1,6 +1,6 @@
-# dpahlHW7
+# BAIS Digital Product Management Web Form📊🤓
 Digital Product Management: Homework 7 Web Form
-The prupose of this homework asssigment is to become acquainted with the HTML and CSS required to construct a web form, along with the design involved in creating survey forms. The more practice I got playing around with HTML and CSS code the better I got at it and understood more details of the coding language. 
+The purpose of this homework asssigment is to become acquainted with the HTML and CSS required to construct a web form, along with the design involved in creating survey forms. The more practice I got playing around with HTML and CSS code the better I got at it and understood more details of the coding language. 
 
 Creating a web form that aims to have the best practices is essential to ensuring that users have a positive experience when using it. There are various best practices to consider when designing a web form, including usability, accessibility, and visual design. 
 Usability is one of the most important considerations when creating a web form. Users on my survey should be able to easily navigate through the form and understand what information is required of them. To ensure usability, I made sure to use clear and concide language for all form labels and instructions. 
